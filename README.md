@@ -14,47 +14,48 @@ _Comienza a usar GitHub en menos de una hora._
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Step 3 >>>
+  Just a historic note: the previous version of this step forced the learner
+  to write a pull request description,
+  checked that `main` was the receiving branch,
+  and that the file was named correctly.
 -->
 
-## Paso 2: Hacer un commit de un archivo
+## Paso 3: Abrir un pull request
 
-_¡Has creado una rama! :tada:_
+_¡Buen trabajo haciendo ese commit! :sparkles:_
 
-Crear una rama te permite editar tu proyecto sin cambiar la rama `main`. Ahora que tienes una rama, es hora de crear un archivo y hacer tu primer commit.
+Ahora que has realizado un cambio en el proyecto y creado un commit, ¡es hora de compartir tu cambio propuesto a través de un pull request!
 
-**¿Qué es un commit?**: Un _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ es un conjunto de cambios en los archivos y carpetas de tu proyecto. Un commit existe en una rama. Para más información, consulta "[Acerca de los commits](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
+**¿Qué es un pull request?**: La colaboración ocurre en un _[pull request](https://docs.github.com/es/get-started/quickstart/github-glossary#pull-request)_. El pull request muestra los cambios en tu rama a otras personas y les permite aceptar, rechazar o sugerir cambios adicionales a tu rama. En una comparación lado a lado, este pull request mantendrá los cambios que acabas de hacer en tu rama y propondrá aplicarlos a la rama principal del proyecto `main`. Para más información sobre los pull requests, consulta "[Acerca de los pull requests](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
 
-### :keyboard: Actividad: Tu primer commit
+### :keyboard: Actividad: Crear un pull request
 
-Los siguientes pasos te guiarán a través del proceso de hacer un commit de un cambio en GitHub. Un commit registra cambios en el renombrado, cambio de contenido, creación de un nuevo archivo y cualquier otro cambio realizado en tu proyecto. Para este ejercicio, hacer un commit de un cambio requiere primero añadir un nuevo archivo a tu nueva rama.
+Puede que hayas notado después de tu commit que se mostró un mensaje indicando tu reciente push a tu rama y proporcionando un botón que dice **Compare & pull request**.
 
-1. En la pestaña **< > Code** en el menú de encabezado de tu repositorio, asegúrate de estar en tu nueva rama `my-first-branch`.
+![captura de pantalla del mensaje y botón](/images/compare-and-pull-request.png)
 
-2. Selecciona el desplegable **Añadir archivo** y haz clic en **Crear archivo nuevo**.
+Para crear un pull request automáticamente, haz clic en **Compare & pull request**, y luego salta al paso 6 a continuación. Si no haces clic en el botón, las instrucciones a continuación te guían a través del proceso manual para configurar el pull request.
 
-   ![opción crear archivo nuevo](/images/create-new-file.png)
+1. Haz clic en la pestaña **Pull requests** en el menú de encabezado de tu repositorio.
+2. Haz clic en **New pull request**.
+3. En el desplegable **base:**, asegúrate de que esté seleccionado **main**.
+4. Selecciona el desplegable **compare:**, y haz clic en `my-first-branch`.
 
-3. En el campo **Add file**, escribe `PROFILE.md`.
+   ![captura de pantalla mostrando ambas selecciones de rama](/images/pull-request-branches.png)
 
-   **Nota:** `.md` es una extensión de archivo que crea un archivo Markdown. Puedes aprender más sobre Markdown visitando "[Sintaxis básica de escritura y formato](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" en nuestra documentación o tomando el curso de habilidades "[Comunicarse usando Markdown](https://github.com/skills/communicate-using-markdown)".
+5. Haz clic en **Create pull request**.
+6. Ingresa un título para tu pull request. Por defecto, el título será automáticamente el nombre de tu rama. Para este ejercicio, editemos el campo para que diga `Add my first file`.
+7. El siguiente campo te ayuda a proporcionar una descripción de los cambios que hiciste. Aquí, puedes agregar una descripción de lo que has logrado hasta ahora. Como recordatorio, hasta el momento has: creado una nueva rama, creado un archivo y hecho un commit.
 
-4. En el área **Enter file contents here**, copia el siguiente contenido en tu archivo:
+   ![captura de pantalla mostrando el pull request](/images/Pull-request-description.png)
 
-   ```
-   Welcome to my GitHub profile!
-   ```
+8. Haz clic en **Create pull request**. Serás automáticamente navegado a tu nuevo pull request.
+9. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
 
-   <img alt="profile.md file screenshot" src="/images/my-profile-file.png"/>
+   **Nota**: ¡Puede que veas evidencia de que GitHub Actions se está ejecutando en la pestaña con el pull request abierto! La imagen a continuación muestra una línea que podrías ver en tu pull request después de que la Action termine de ejecutarse.
 
-5. Haz clic en **Commit changes...** en la esquina superior derecha, encima del cuadro de contenido. Para los commits, puedes introducir un breve mensaje de commit que describa los cambios que has hecho. Este mensaje ayuda a otros a saber qué está incluido en tu commit. GitHub ofrece un mensaje predeterminado simple, pero cambiémoslo un poco para practicar. Primero, escribe `Add PROFILE.md` en el primer campo de texto titulado "Mensaje de commit".
-
-   <img alt="captura de pantalla de añadir un nuevo archivo con un mensaje de commit" src="/images/commit-full-screen.png" />
-
-6. En esta lección, ignoraremos los otros campos y haremos clic en **Commit changes**.
-7. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
+   ![captura de pantalla de un ejemplo de una línea de actions](/images/Actions-to-step-4.png)
 
 <footer>
 
