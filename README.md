@@ -14,35 +14,38 @@ _Comienza a usar GitHub en menos de una hora._
 </header>
 
 <!--
-  <<< Author notes: Step 4 >>>
-  Just a historic note: The previous version of this step required responding
-  to a pull request review before merging. The previous version also handled
-  if users accidentally closed without merging.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Paso 4: Fusionar tu pull request
+## Fin
 
-_¡Bien hecho! :sunglasses:_
+_¡Felicidades, has completado este curso y te has unido al mundo de los desarrolladores!_
 
-Has creado exitosamente un pull request. Ahora puedes fusionar (merge) tu pull request.
+<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
 
-**¿Qué es un merge?**: Un _[merge](https://docs.github.com/es/get-started/quickstart/github-glossary#merge)_ añade los cambios de tu pull request y rama a la rama `main`. Para más información sobre los merges, consulta "[Merging a pull request](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)".
+Aquí hay un resumen de tus logros:
 
-Como se mencionó en el paso anterior, puede que hayas visto evidencia de que GitHub Actions se está ejecutando, lo cual automáticamente avanza tus instrucciones al siguiente paso. Tendrás que esperar a que termine antes de poder fusionar tu pull request. Estará listo cuando el botón de merge pull request esté en verde.
+- Aprendiste sobre GitHub, repositorios, ramas, commits y pull requests.
+- Creaste una rama, un commit y un pull request.
+- Hiciste un merge de un pull request.
+- ¡Hiciste tu primera contribución! :tada:
 
-![captura de pantalla del botón de fusionar pull request en verde](/images/Green-merge-pull-request.png)
+### ¿Qué sigue?
 
-### :keyboard: Actividad: Hacer merge del pull request
+Si te gustaría hacer un README de perfil, utiliza las instrucciones rápidas a continuación o sigue las instrucciones en el artículo [Gestionar tu README de perfil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 
-1. Haz clic en **Merge pull request** (Fusionar pull request).
-2. Haz clic en **Confirm merge** (Confirmar fusión).
-3. Una vez que tu rama haya sido fusionada, ya no la necesitas. Para eliminar esta rama, haz clic en **Delete branch** (Eliminar rama).
+1. Crea un nuevo repositorio público con un nombre que coincida con tu nombre de usuario de GitHub.
+2. Crea un archivo llamado `README.md` en su raíz. "Raíz" significa que no está dentro de ninguna carpeta en tu repositorio.
+3. Edita el contenido del archivo `README.md`.
+4. Si creaste una nueva rama para tu archivo, abre y fusiona un pull request en tu rama.
 
-   ![captura de pantalla mostrando el botón de eliminar rama](/images/delete-branch.png)
+Consulta estos recursos para aprender más o involucrarte:
 
-4. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
-
-   **Nota**: ¡Consulta el paso **Finish** (Finalización) para ver qué puedes aprender a continuación!
+- ¿Eres estudiante? Echa un vistazo al [Pack de Desarrollador Estudiantil](https://education.github.com/pack).
+- [Toma otro curso de GitHub Skills](https://github.com/skills).
+- [Lee la documentación de Introducción a GitHub](https://docs.github.com/es/get-started).
+- Para encontrar proyectos a los que contribuir, visita [GitHub Explore](https://github.com/explore).
 
 <footer>
 
