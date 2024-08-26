@@ -14,47 +14,47 @@ _Comienza a usar GitHub en menos de una hora._
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
 -->
 
-## Paso 1: Crear una rama
+## Paso 2: Hacer un commit de un archivo
 
-_¡Bienvenido a "Introducción a GitHub"! :wave:_
+_¡Has creado una rama! :tada:_
 
-**¿Qué es GitHub?**: GitHub es una plataforma de colaboración que utiliza _[Git](https://docs.github.com/es/get-started/quickstart/github-glossary#git)_ para el control de versiones. GitHub es un lugar popular para compartir y contribuir al software de [código abierto](https://docs.github.com/es/get-started/quickstart/github-glossary#open-source).
-<br>:tv: [Vídeo: ¿Qué es GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+Crear una rama te permite editar tu proyecto sin cambiar la rama `main`. Ahora que tienes una rama, es hora de crear un archivo y hacer tu primer commit.
 
-**¿Qué es un repositorio?**: Un _[repositorio](https://docs.github.com/es/get-started/quickstart/github-glossary#repository)_ es un proyecto que contiene archivos y carpetas. Un repositorio rastrea versiones de archivos y carpetas. Para más información, consulta "[Acerca de los repositorios](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories)" en la documentación de GitHub.
+**¿Qué es un commit?**: Un _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ es un conjunto de cambios en los archivos y carpetas de tu proyecto. Un commit existe en una rama. Para más información, consulta "[Acerca de los commits](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
 
-**¿Qué es una rama?**: Una _[rama](https://docs.github.com/es/get-started/quickstart/github-glossary#branch)_ es una versión paralela de tu repositorio. Por defecto, tu repositorio tiene una rama llamada `main` y se considera la rama definitiva. Crear ramas adicionales te permite copiar la rama `main` de tu repositorio y hacer cambios de forma segura sin alterar el proyecto principal. Muchas personas usan ramas para trabajar en características específicas sin afectar otras partes del proyecto.
+### :keyboard: Actividad: Tu primer commit
 
-Las ramas te permiten separar tu trabajo de la rama `main`. En otras palabras, el trabajo de todos está seguro mientras contribuyes. Para más información, consulta "[Acerca de las ramas](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+Los siguientes pasos te guiarán a través del proceso de hacer un commit de un cambio en GitHub. Un commit registra cambios en el renombrado, cambio de contenido, creación de un nuevo archivo y cualquier otro cambio realizado en tu proyecto. Para este ejercicio, hacer un commit de un cambio requiere primero añadir un nuevo archivo a tu nueva rama.
 
-### :keyboard: Actividad: Tu primera rama
+1. En la pestaña **< > Code** en el menú de encabezado de tu repositorio, asegúrate de estar en tu nueva rama `my-first-branch`.
 
-1. Abre una nueva pestaña del navegador y navega a tu repositorio recién creado. Luego, trabaja en los pasos en tu segunda pestaña mientras lees las instrucciones en esta.
-2. Navega a la pestaña **< > Code** en el menú de encabezado de tu repositorio.
+2. Selecciona el desplegable **Añadir archivo** y haz clic en **Crear archivo nuevo**.
 
-   ![pestaña-codigo](/images/code-tab.png)
+   ![opción crear archivo nuevo](/images/create-new-file.png)
 
-3. Haz clic en el desplegable de la rama **main**.
+3. En el campo **Add file**, escribe `PROFILE.md`.
 
-   ![desplegable-rama-main](/images/main-branch-dropdown.png)
+   **Nota:** `.md` es una extensión de archivo que crea un archivo Markdown. Puedes aprender más sobre Markdown visitando "[Sintaxis básica de escritura y formato](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" en nuestra documentación o tomando el curso de habilidades "[Comunicarse usando Markdown](https://github.com/skills/communicate-using-markdown)".
 
-4. En el campo, nombra tu rama `my-first-branch`. En este caso, el nombre debe ser `my-first-branch` para activar el flujo de trabajo del curso.
+4. En el área **Enter file contents here**, copia el siguiente contenido en tu archivo:
 
-5. Haz clic en **Crear branch: my-first-branch** para crear tu rama.
+   ```
+   Welcome to my GitHub profile!
+   ```
 
-   ![boton-crear-rama](/images/create-branch-button.png)
+   <img alt="profile.md file screenshot" src="/images/my-profile-file.png"/>
 
-   La rama cambiará automáticamente a la que acabas de crear.
-   La barra desplegable de la rama **main** reflejará tu nueva rama y mostrará el nuevo nombre de la rama.
+5. Haz clic en **Commit changes...** en la esquina superior derecha, encima del cuadro de contenido. Para los commits, puedes introducir un breve mensaje de commit que describa los cambios que has hecho. Este mensaje ayuda a otros a saber qué está incluido en tu commit. GitHub ofrece un mensaje predeterminado simple, pero cambiémoslo un poco para practicar. Primero, escribe `Add PROFILE.md` en el primer campo de texto titulado "Mensaje de commit".
 
-6. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
+   <img alt="captura de pantalla de añadir un nuevo archivo con un mensaje de commit" src="/images/commit-full-screen.png" />
+
+6. En esta lección, ignoraremos los otros campos y haremos clic en **Commit changes**.
+7. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
 
 <footer>
 
